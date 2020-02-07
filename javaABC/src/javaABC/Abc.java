@@ -3,7 +3,7 @@ package javaABC;
 class Abc {
 	static int m;
 	public static void fun() {
-		System.out.println(m);
+		System.out.println(m+"holaa");
 	}
 	public static void main(String[] args) {
 		fun();
@@ -16,6 +16,6 @@ class Abc {
 		} finally { 
 			System.out.print("c"); 
 		} 
-
+		fun();
 	}
 }
