@@ -6,7 +6,7 @@ class Abc {
 		System.out.println(m);
 	}
 	public static void main(String[] args) {
-//		fun();
+		fun();
 		try { 
 			System.out.print(10 + 10 / 0); 
 		} catch(NullPointerException e1) { 
